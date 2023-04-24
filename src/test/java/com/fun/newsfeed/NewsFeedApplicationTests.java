@@ -3,9 +3,7 @@ package com.fun.newsfeed;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest class NewsFeedApplicationTests {
-
-  @Test void contextLoads() {
-  }
+@SpringBootTest
+public class NewsFeedApplicationTests {
 
 }

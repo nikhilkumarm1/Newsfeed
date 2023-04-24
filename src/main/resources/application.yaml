@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: newsfeed
+  datasource:
+    url: jdbc:mysql://localhost:3306/newsfeed?useSSL=false
+    username: root
+    password: admin
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
